@@ -1,0 +1,50 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.LoadingContainer {
+  position: fixed;
+  top: 45%;
+  left: 45%;
+  border: 3px solid #381919;
+  background: rgba(240, 255, 255, 0.3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #150909;
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.LoadingWheel {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #2596be;
+  border-top-color: #150909;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+  margin-bottom: 10px;
+}
+
+.LoadingText {
+  text-align: center;
+}

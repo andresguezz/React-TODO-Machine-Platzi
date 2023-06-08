@@ -1,0 +1,26 @@
+.todo-search {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+  
+    border: 1px solid #381919;
+    background: rgba(240, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .todo-search {
+      width: auto;
+      max-width: 400px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .todo-search {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  }

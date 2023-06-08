@@ -1,0 +1,16 @@
+.todoempty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.first{
+    padding: 5px;
+    color: green
+}

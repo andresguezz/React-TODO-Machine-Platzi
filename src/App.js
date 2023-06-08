@@ -1,25 +1,37 @@
-import logo from './platzi.webp';
-import './App.css';
+
+import React from 'react';
+import { AppUI } from './AppUI';
+import { TodoProvider } from './TodoContext';
+
+
+// localStorage.removeItem('CIRNO_v1');
+// const defaultTodos = [
+//   { text: 'Cortar Cebolla', completed: true},
+//   { text: 'Tomar el Curso de Intro a React.js', completed: false},
+//   { text: 'Llorrar con la Llorona', completed: false},
+//   { text: 'Otra cosa', completed: false},
+//   { text: 'Canción', completed: true},
+  
+// ];
+
+// localStorage.setItem('CIRNO_V1', JSON.stringify(defaultTodos) );
+
+
+
+ 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edita el archivo <code>src/App.js</code> y guarda para recargar.
-        </p>
-        <a
-          className="App-link"
-          href="https://platzi.com/reactjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <TodoProvider>
+      <AppUI/>
+    </TodoProvider>
+    
+  )
+
 }
+
+
+
+
 
 export default App;
