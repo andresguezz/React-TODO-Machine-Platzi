@@ -6,7 +6,7 @@ Hola
 Este es un TODO Machine realizada con REACT.js
 Si quieres probar la funcionalidad de esta aplicación lo puedes hacer aqui:
 
-
+https://andresguezz.github.io/React-TODO-Machine-Platzi/
 
 Disfrutala 😎
 
@@ -14,6 +14,8 @@ Hello,
 
 This is a TODO Machine made with REACT.js.
 If you want to test the functionality of this application, you can do it here:
+
+https://andresguezz.github.io/React-TODO-Machine-Platzi/
 
 Enjoy it! 😎
 
