@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-TODO-Machine-Platzi/static/css/main.0eda4a04.css",
+    "main.js": "/React-TODO-Machine-Platzi/static/js/main.fd952567.js",
+    "static/media/3c0.gif": "/React-TODO-Machine-Platzi/static/media/3c0.b6604fe855266819d7c8.gif",
+    "static/media/cirno.png": "/React-TODO-Machine-Platzi/static/media/cirno.2120ec7f2178e98b9831.png",
+    "index.html": "/React-TODO-Machine-Platzi/index.html",
+    "main.0eda4a04.css.map": "/React-TODO-Machine-Platzi/static/css/main.0eda4a04.css.map",
+    "main.fd952567.js.map": "/React-TODO-Machine-Platzi/static/js/main.fd952567.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eda4a04.css",
+    "static/js/main.fd952567.js"
+  ]
+}
